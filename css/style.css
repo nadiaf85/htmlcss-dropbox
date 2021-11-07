@@ -23,6 +23,7 @@ body{
 
 .container-header{
     height: 70px;
+    margin-top: 20px;
 }
 header{
     width: 100%;
@@ -39,7 +40,7 @@ header{
     float: left;
     margin-top: 10px;
     vertical-align: middle;
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 
@@ -49,11 +50,21 @@ header{
     clear: both;
 }
 
-#nav {
+#nav-col1{
     float: left;
     display: inline-block;
-    width: 80%;
+    width: 30%;
     margin-bottom: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#nav-col2{
+    float: right;
+    display: inline-block;
+    width: 34%;
+    margin-bottom: 50px;
+    margin-top: 5px;
 }
 
 nav ul li{
@@ -79,12 +90,10 @@ nav li{
 }
 
 .button-inizia{
-    float: right;
     text-decoration: none;
-    border: 1px solid black;
+    border: 1px solid dodgerblue;
     background-color: dodgerblue;
     color: white;
-    margin-right: 20px;
 }
 
 /* Parte alta */
@@ -93,6 +102,10 @@ section{
     height: 500px;
     width: 100%;
     background-color: cornflowerblue;
+}
+
+.container-top{
+    margin-left: 40px;
 }
 
 .blocco-top{
@@ -108,15 +121,22 @@ section{
     padding: 40px;
 }
 
-.blocco-top h5{
+.blocco-top p{
     display: inline-block;
-    width: 30%;
+    width: 350px;
     margin-left: 45px;
     margin-bottom: 50px;
 }
 
-.button-top {
-    margin-left: 6%;
+.inizia-free{
+    text-decoration: none;
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.button-top , .annulla{
+    margin-left: 90px;
 }
 
 .image-top{
@@ -132,54 +152,101 @@ section{
     
 }
 
+.button-top a{
+    text-decoration: none;
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+}
+
 /* Main */
 
 .container-main{
-    height: 800px;
+    height: 1000px;
     width: 100%;
     padding: 80px;
+    margin-left: 140px;
 }
 
 .container-main h1{
     margin-bottom: 20px;
 }
 
-/* .radio:hover{
-    color: blue;
-} */
+.col1 ul{
+    margin: 30px 25px;
+}
 
-.col-container1,.col-container2{
+.col2 ul{
+    margin: 30px 25px;
+}
+
+.col3 ul{
+    margin: 30px 25px;
+}
+
+.col1 ul li{
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.col2 ul li{
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.col3 ul li{
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.col1 ul .pro, .standard, .adv{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.col1, .col2, .col3, .text{
+    font-size: 12px;
+}
+
+
+.col-container1,.col-container2, .col-container3{
     width: 25%;
     height: 700px;
-    border: 1px solid grey ;
+    border: 1px solid lightgray ;
     float: left;
     margin-right: 40px;
     margin-top: 30px;
 }
 
-.col-container3{
-    width: 25%;
-    height: 300px;
-    border: 1px solid grey ;
-    float: left;
-    margin-right: 50px;
-    margin-top: 30px;
-}
-
-.singolo, .team{
-    border-bottom: 1px solid grey;
+.col1 > .singolo{
+    border-bottom: 1px solid lightgrey;
     text-align: center;
 }
 
-.col-container1 h3{ 
-    margin: 20px 20px;
+.col2 .team{
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
 }
 
-.col-container1 h5{
-    margin: 20px 20px;
+.col3 .team{
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
 }
 
 
+#btn-col{
+    background-color: dodgerblue;
+    border: 1px dodgerblue;
+    color: white;
+    text-align: center;
+}
 
+.tab-centrale{
+    width: 70%;
+    height: 500px;
+    border: 1px solid lightgray ;
+    margin-right: 40px;
+    margin-top: 10px;
+}
 
 /* Footer */
