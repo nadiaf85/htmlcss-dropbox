@@ -368,16 +368,29 @@ section{
 
 #sponsor{
     width: 100%;
-    border: 1px solid black;
+    height: 400px;
+}
+
+.logosx-bottom1{ 
+    background-color: lightgreen;
 }
 
 .logo-bottom{
-    height: 200px;
-    width: 200px;
-    border: 1px solid;
-    background-color: lightgreen;
-    display: inline-block;
-    float: left;
+    height:50%;
+    width:50%;
+    float:left;
+}
+
+.logosx-bottom2{
+    background-color: brown;
+}
+
+.logosx-bottom3{
+    background-color: dodgerblue;
+}
+
+.logosx-bottom4{
+    background-color: red;
 }
 
 .partesx img{
@@ -385,23 +398,102 @@ section{
     transform: translate(50% , 50%);
 }
 
-.partesx{
-    height: 600px;
-    width: 500px;
-    display: inline-block;
+.partedx img{
+    width: 50%;
+    transform: translate(50% , 50%);
 }
+
+.partesx{
+    width:25vw;  
+    float:left;
+    height:25vw;
+}
+
 .partecx{
-    height: 400px;
-    width: 600px;
-    display: inline-block;
+    height: 360px;
+    width: 40%;
     float: left;
+    background-color: lightgrey;
+}
+
+.logo-cx img{
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .partedx{
-    height: 400px;
-    width: 500px;
-    display: inline-block;
-    float: left;
+    width:25vw;
+    height:25vw;
+    float: right;
+}
+
+.testo-logocx{
+
+}
+.logodx-bottom1{
+    background-color: red;   
+}
+
+.logodx-bottom2{
+    background-color: brown;    
+   
+}
+
+.logodx-bottom3{
+    background-color: blue;    
+}
+
+.logodx-bottom4{
+    background-color: yellow;    
+   
+}
+
+/* Blocco azzurro bottom */
+
+.blocco-azzurro-bottom{
+    height: 300px;
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+.button-free{
+    text-decoration: none;
+    border: 1px solid #0061ff;
+    background-color: #0061ff;
+    color: white;
+}
+
+/* FAQ */
+
+.faq{
+    height: 300px;
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 220px;
+}
+
+.faq h5{
+    line-height: 50px;
 }
 
 /* Footer */
+
+footer{
+    height: 500px;
+    background-color: black;
+}
+
+.col1-footer, .col2-footer, .col3-footer, .col4-footer, .col5-footer{
+    display: inline-block;
+    line-height: 25px;
+    margin-right: 70px;
+    transform: translate(100%, 60%);
+}
+
+.col1-footer, .col2-footer, .col3-footer, .col4-footer, .col5-footer, ul li{
+    color: white;
+    list-style: none;
+}
+
