@@ -91,8 +91,8 @@ nav li{
 
 .button-inizia{
     text-decoration: none;
-    border: 1px solid dodgerblue;
-    background-color: dodgerblue;
+    border: 1px solid #0061ff;
+    background-color: #0061ff;
     color: white;
 }
 
@@ -102,6 +102,7 @@ section{
     height: 500px;
     width: 100%;
     background-color: cornflowerblue;
+    position: relative;
 }
 
 .container-top{
@@ -133,16 +134,14 @@ section{
     border: 1px solid dodgerblue;
     background-color: dodgerblue;
     color: white;
+    margin-left: 45px;
 }
 
-.button-top , .annulla{
-    margin-left: 90px;
-}
-
-.image-top{
-    height: 50px;
-    width: 20%;
+.image-top > img{
+    height: 350px;
     position: absolute;
+    top: 200px;
+    left: 650px;
 }
 
 .blocco-top > img{
@@ -154,8 +153,8 @@ section{
 
 .button-top a{
     text-decoration: none;
-    border: 1px solid dodgerblue;
-    background-color: dodgerblue;
+    border: 1px solid #0061ff;
+    background-color: #0061ff;
     color: white;
 }
 
@@ -239,14 +238,73 @@ section{
     border: 1px dodgerblue;
     color: white;
     text-align: center;
+    padding: 10px;
+    margin-left: 50px;
 }
 
 .tab-centrale{
     width: 70%;
     height: 500px;
     border: 1px solid lightgray ;
-    margin-right: 40px;
+    margin-left: 40px;
     margin-top: 10px;
 }
+
+
+.col-centro{
+    height: 100px;
+    border: 1px solid lightgray;
+    width: 1012px;
+    display: inline-block;
+    margin-left: 219px;
+}
+
+.colcx ul li{
+    list-style-type: none;
+
+}
+
+.colcx .team{
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+.imgcx img{
+    display: inline-block;
+    float: left;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 220px;
+
+}
+
+.blocco-textimg > .fianco-img{
+    display: inline-block;
+    float: left;
+    width: 300px;
+    margin-top: 140px;
+    margin-left: 70px;
+}
+
+.fianco-img > h2{
+    margin-bottom: 20px;
+}
+
+.fianco-img > a{
+    margin-bottom: 20px;
+}
+
+.button-partner{
+    text-decoration: none;
+    border: 1px solid grey;
+    color: black;
+}
+
+.sixbloc{
+    
+}
+
+
+
 
 /* Footer */
