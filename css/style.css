@@ -15,6 +15,10 @@ body{
     margin-top: 20px;
 }
 
+#container{
+    margin: 0 auto;
+}
+
 header{
     width: 100%;
     height: 10px;
@@ -22,7 +26,7 @@ header{
     top: 5px;
     left: 0;
     line-height: 30px;
-    position: fixed;
+    /* position: fixed; */
     /* z-index: 2; */
 }
 
@@ -89,7 +93,7 @@ nav li{
 
 /* Parte alta */
 
-section{
+.sec-top{
     height: 500px;
     width: 100%;
     background-color: cornflowerblue;
@@ -97,7 +101,7 @@ section{
 }
 
 section h1{
-margin-left: 0;
+    margin-left: 0;
 }
 
 .container-top{
@@ -160,7 +164,6 @@ margin-left: 0;
     height: 1000px;
     width: 100%;
     padding: 80px;
-    margin-left: 140px;
 }
 
 main h1{
@@ -294,7 +297,6 @@ main h1{
     border: 1px solid lightgray;
     width: 1012px;
     display: inline-block;
-    margin-left: 219px;
     margin-top: 20px;
 }
 
@@ -327,7 +329,6 @@ main h1{
     height: 450px;
     margin-top: 100px;
     margin-left: 220px;
-
 }
 
 .blocco-textimg > .fianco-img{
@@ -441,7 +442,6 @@ main h1{
 
 #sponsor{
     width: 100%;
-    height: 400px;
     margin-top: 50px;
 }
 
@@ -471,12 +471,14 @@ main h1{
     width: 50%;
     transform: translate(50% , 50%);
     margin-top: 38px;
+    filter: invert(1);
 }
 
 .partedx img{
     width: 50%;
     transform: translate(50% , 50%);
     margin-top: 38px;
+    filter: invert(1);
 }
 
 .partesx{
@@ -525,7 +527,7 @@ main h1{
 }
 
 .logodx-bottom2{
-    background-color: brown;    
+    background-color: lightblue;    
 }
 
 .logodx-bottom3{
@@ -533,24 +535,25 @@ main h1{
 }
 
 .logodx-bottom4{
-    background-color: yellow;    
+    background-color: gold;    
    
 }
 
 /* Blocco azzurro bottom */
 
 .blocco-azzurro-bottom{
+    display: inline-block;
     height: 300px;
     width: 100%;
-    background-color: dodgerblue;
+    background-color: lightblue;
     color: brown;
 }
 
 .button-free{
     text-decoration: none;
-    border: 1px solid #0061ff;
-    background-color: #0061ff;
-    color: white;
+    background-color: white;
+    color: black;
+    padding: 10px;
 }
 
 /* FAQ */
