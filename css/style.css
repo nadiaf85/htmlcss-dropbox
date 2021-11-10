@@ -170,7 +170,6 @@ section h1{
 /* Main */
 
 .container-main{
-    height: 1000px;
     width: 100%;
     padding: 80px;
 }
@@ -280,6 +279,14 @@ main h1{
     text-align: center;
 }
 
+.col-centro .contact{
+    font-size: 14px;
+}
+
+.col-centro .solution{
+    font-size: 13px;
+}
+
 .btn-col{
     background-color: #0061ff;
     border: 1px #0061ff;
@@ -288,6 +295,14 @@ main h1{
     padding: 10px;
     margin-left: 40px;
     margin-bottom: 20px;
+}
+
+.venditebtn{
+    background-color: #0061ff;
+    border: 1px #0061ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 .col1, .col2, .col3, h4{
@@ -305,7 +320,6 @@ main h1{
 .col-centro{
     height: 200px;
     border: 1px solid lightgray;
-    display: inline-block;
     margin-top: 20px;
 }
 
@@ -314,12 +328,15 @@ main h1{
     font-size: 20px;
     margin-top: 20px;
     margin-left: 20px;
+    display: inline-block;
+    position: relative;
 }
 
 .col-centro .team{
     line-height: 30px;
     border-bottom: 1px solid lightgrey;
     text-align: center;
+    font-size: 12px;
 }
 
 .col-centro ul li{
@@ -561,6 +578,10 @@ main h1{
 .blocco-azzurro-bottom p{
     font-size: 40px;
     font-weight: bold;
+    width: 49%;
+    position: relative;
+    top: 125px;
+    display: inline-block;
 }
 
 .button-free{
@@ -568,12 +589,15 @@ main h1{
     background-color: white;
     color: black;
     padding: 10px;
+    position: absolute;
+    /* left: 600px;
+    top: 130px; */
 }
 
 /* FAQ */
 
 .faq{
-    height: 300px;
+    height: 550px;
     width: 50%;
     margin-top: 70px;
     margin-left: 220px;
@@ -581,9 +605,24 @@ main h1{
 
 .faq > h2,h5{
     line-height: 50px;
-    border-bottom: 1px solid lightgrey;
+    /* border-bottom: 1px solid lightgrey; */
     border-width: 1px;
 }
+
+.domanda-risp{
+    position: relative;
+}
+
+.domanda-risp i{
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+}
+
+/* .domanda-risp:hover{
+    display: none;
+} */
+
 
 /* Footer */
 
@@ -594,7 +633,7 @@ footer{
 
 .footer1, .footer2, .footer3, .footer4, .footer5{
     display: inline-block;
-    line-height: 20px;
+    line-height: 10px;
     margin-right: 70px;
     transform: translate(100%, 60%);
     color: white;
@@ -604,3 +643,20 @@ footer{
     list-style: none;
 }
 
+.footer1, .footer2, .footer3, .footer4, .footer5, .specifiche{
+    margin-bottom: 40px;
+}
+
+/* .lingua {
+    margin: auto;
+    width: 80%;
+}
+
+.lingua .up{
+    margin-top: 50px;
+    font-size: 10px
+}
+
+.lingua .up a {
+    color: lightgray;
+} */
