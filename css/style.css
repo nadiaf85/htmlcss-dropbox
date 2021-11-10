@@ -281,8 +281,8 @@ main h1{
 }
 
 .btn-col{
-    background-color: dodgerblue;
-    border: 1px dodgerblue;
+    background-color: #0061ff;
+    border: 1px #0061ff;
     color: white;
     text-align: center;
     padding: 10px;
@@ -309,27 +309,24 @@ main h1{
     margin-top: 20px;
 }
 
-.colcx .adv{
+.col-centro .adv{
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
     margin-left: 20px;
 }
 
-.colcx .team{
+.col-centro .team{
     line-height: 30px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
 }
 
-.colcx ul li{
+.col-centro ul li{
     list-style-type: none;
     margin-top: 20px;
     margin-left: 20px;
     font-size: 15px;
-}
-
-.colcx .team{
-    border-bottom: 1px solid lightgrey;
-    text-align: center;
 }
 
 .imgcx img{
@@ -447,7 +444,7 @@ main h1{
 }
 
 #sponsor{
-    width: 100%;
+    width: 100vw;
     margin-top: 50px;
 }
 
@@ -456,7 +453,7 @@ main h1{
 }
 
 .logo-bottom{
-    height:50%;
+    height: 180px;
     width:50%;
     float:left;
 }
@@ -488,44 +485,50 @@ main h1{
 }
 
 .partesx{
-    width:25vw;  
+    width:30vw;  
     float:left;
-    height:25vw;
+    height:25%;
 }
 
 .partecx{
     height: 360px;
-    width: 45%;
+    width: 40vw;
     float: left;
     background-color: lightgrey;
 }
 
+.partedx{
+    width: 30vw;
+    height:25%;
+    float: left;
+}
+
 .logo-cx img{
-    width: 20%;
-    margin-left: 30px;
-    margin-top: 30px;
+    width: 15%;
+    margin-left: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
 .text-logocx{
-    margin-left: 100px;
+    margin-left: 80px;
     margin-right: 100px;
 }
 
 .logo-cx{
-    margin-left: 70px;
+    margin-left: 60px;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
-.text-logocx h3{
-    font-weight: 100;
+.text-logocx h3,h4{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
 }
 
-.partedx{
-    width:25vw;
-    height:25vw;
-    float: left;
+.text-logocx h4{
+    margin-top: 15px;
 }
 
 .logodx-bottom1{
@@ -553,6 +556,11 @@ main h1{
     width: 100%;
     background-color: lightblue;
     color: brown;
+}
+
+.blocco-azzurro-bottom p{
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .button-free{
