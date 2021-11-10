@@ -147,7 +147,6 @@ section h1{
     font-size: 30px;
 }
 
-
 .image-top > img{
     height: 400px;
     position: absolute;
@@ -383,65 +382,60 @@ main h1{
 
 /* Blocco da sei immagini */
 
-#sixbloc-bl1, h1{
-    margin-bottom: 40px;
-    margin-top: 60px;
+
+.immagine-testo1{
+    float: left;
+    width: 30%;
 }
 
-.fila1{
-    margin-right: 40px;
+.immagine-testo2{
+    float: left;
+    width: 30%;
 }
 
-.fila2{
-    margin-right: 40px;
+.immagine-testo3{
+    float: left;
+    width: 30%;
 }
 
-.textunder{
-    width: 200px;
+.blocco-colonne1{
+    margin-bottom: 60px;
 }
 
-.textunder h6{
-    line-height: 15px;
-    font-size: 11px;
+.blocco-colonne1 img{
+    width: 250px;
+}
+
+.blocco-colonne1 h4{
+    font-weight: bold;
+    font-size: 20px;
+    width: 220px;
+}
+
+.blocco-colonne2 h4{
+    font-weight: bold;
+    font-size: 20px;
+    width: 220px;
+}
+
+.blocco-colonne1 h6{
+    font-size: 12px;
+    width: 220px;
     font-weight: 100;
-    margin-top: 10px;
 }
 
-.fila1, .fila2, .fila3{
-    display: inline-block;
-    float: left;
+.blocco-colonne2 h6{
+    font-size: 12px;
+    width: 220px;
+    font-weight: 100;
 }
 
-.fila1 > .firstpic{
-    height: 200px;
-    float: left;
-    display: inline-block;
+.blocco-colonne h4,h6{
+    width: 50%;
 }
 
-.fila2 > .secondpic{
-    height: 200px;
-    float: left;
-    display: inline-block;
-}
-
-.fila3 > .thirdpic{
-    height: 200px;
-    float: left;
-    display: inline-block;
-}
-
-.firstpic , .secondpic , .thirdpic{
-    height: 200px;
-    float: left;
-    display: inline-block;
-}
-
-.firstpic h4{
-    width: 200px;
-}
-
-.firstpic h5{
-    width: 200px;
+.blocco-colonne2 img{
+    width: 250px;
 }
 
 /* Parte blocchi colorati */
@@ -502,20 +496,20 @@ main h1{
 }
 
 .partesx{
-    width:30vw;  
+    width:25%;  
     float:left;
     height:25%;
 }
 
 .partecx{
     height: 360px;
-    width: 40vw;
+    width: 50%;
     float: left;
     background-color: lightgrey;
 }
 
 .partedx{
-    width: 30vw;
+    width: 25%;
     height:25%;
     float: left;
 }
@@ -589,9 +583,14 @@ main h1{
     background-color: white;
     color: black;
     padding: 10px;
-    position: absolute;
-    /* left: 600px;
-    top: 130px; */
+}
+
+.pdb{
+    float: left;
+}
+
+.bottone{
+    float: right;
 }
 
 /* FAQ */
