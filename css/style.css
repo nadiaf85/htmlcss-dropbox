@@ -296,14 +296,6 @@ main h1{
     margin-bottom: 20px;
 }
 
-.venditebtn{
-    background-color: #0061ff;
-    border: 1px #0061ff;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
 .col1, .col2, .col3, h4{
     margin-bottom: 15px;
 }
@@ -316,10 +308,43 @@ main h1{
     margin-top: 10px;
 }
 
+.col-container4{
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    height: 150px;
+}
+
+.col4 .team{
+    border: 1px solid lightgray;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.sol-varie p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sol-varie h6{
+    font-weight: 100;
+    font-size: 13px;
+    width: 70%;
+}
+
+.bottone-vend{
+    background-color: #0061ff;
+    border: 1px #0061ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    float: right;
+}
+
 .col-centro{
     height: 200px;
     border: 1px solid lightgray;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 
 .col-centro .adv{
@@ -438,15 +463,16 @@ main h1{
     width: 250px;
 }
 
+
 /* Parte blocchi colorati */
 
-#colorbloc{
+.colorbloc{
     height: 100px;
     display: inline-block;
     margin-top: 150px;
 }
 
-#colorbloc h1{
+.colorbloc h1{
     width: 460px;
 }
 
@@ -573,7 +599,6 @@ main h1{
     font-size: 40px;
     font-weight: bold;
     width: 49%;
-    position: relative;
     top: 125px;
     display: inline-block;
 }
@@ -590,7 +615,7 @@ main h1{
 }
 
 .bottone{
-    float: right;
+    float: left;
 }
 
 /* FAQ */
@@ -618,8 +643,16 @@ main h1{
     top: 20px;
 }
 
-/* .domanda-risp:hover{
+.domanda-risp:hover{
+    display: block;
+}
+
+.domanda-risp h4{
     display: none;
+}
+
+/* .domanda-risp i{
+
 } */
 
 
